@@ -1,0 +1,171 @@
+body {
+    background-color: #2A2761;
+    font-family: 'Nunito',
+        sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+
+/* Nav*/
+
+.navbar-mio {
+    background-color: white;
+}
+
+
+/*Hero*/
+
+
+#hero {
+    padding: 6rem 0rem 6rem 0rem;
+    background-image: url(../img/Hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h1 {
+    font-weight: 800;
+    color: white;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+.btn-mio {
+    border: 1px solid white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    color: white;
+}
+
+.btn-mio:hover {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+
+/*About*/
+
+#about {
+    background-color: white;
+    padding: 4rem 0rem 4rem 0rem;
+    color: black;
+}
+
+#about h2 {
+    color: #2A2761;
+}
+
+
+/*COVERAGE*/
+
+#coverage {
+    padding: 4rem 0rem 4rem 0rem;
+    color: white;
+    font-size: 14px;
+}
+
+
+#coverage h3 {
+    font-weight: 800;
+}
+
+#coverage h5 {
+    font-weight: 600;
+}
+
+
+/*CLIENTS*/
+
+#clients {
+    background-color: white;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+#clients img {
+    width: 60%;
+    filter: grayscale();
+}
+
+#clients img:hover {
+    filter: grayscale(0);
+}
+
+
+.swiper-pagination {
+    margin-top: 5rem;
+}
+
+
+
+
+/*Legales*/
+
+#legales {
+    background-color: white;
+    padding: 1rem 0rem 1rem 0rem;
+    color: #59595b;
+}
+
+#legales a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #59595b;
+}
+
+#legales p {
+    font-size: 14px;
+    color: #59595b;
+}
+
+
+
+/* Media Queries */
+
+@media (min-width: 320px) {
+
+    .swiper-container {
+        width: 100%;
+        height: 200px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .swiper-container {
+        width: 100%;
+        height: 200px;
+    }
+
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+    #coverage img {
+        width: 70%;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
