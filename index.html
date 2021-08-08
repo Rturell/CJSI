@@ -98,7 +98,7 @@
             <h1>Consultorio Jurídico <br> de Servicios Integrales S.C.</h1>
             <p>Usted venda, nosotros cobramos.</p>
 
-            <a class="btn btn-mio mt-3" href="">Contacto</a>
+            <a class="btn btn-mio mt-3" href="#contact">Contacto</a>
 
         </div>
     </div>
@@ -151,7 +151,9 @@
     <div id="ventajas">
         <div class="container text-center">
             <h2>Ventajas & Servicios</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe in earum excepturi, quod tenetur voluptatibus exercitationem sint incidunt praesentium dolorum veniam debitis? Quos, incidunt assumenda facilis ex officia praesentium.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe in earum excepturi, quod tenetur
+                voluptatibus exercitationem sint incidunt praesentium dolorum veniam debitis? Quos, incidunt assumenda
+                facilis ex officia praesentium.</p>
         </div>
     </div>
 
@@ -168,13 +170,8 @@
             <img class="mx-auto d-block" src="img/mapa.svg" alt="Mapa de cobertura">
 
 
-
-
-
-
-
             <div class="row gx-5">
-                <div class="col-12 col-lg-4">
+                <div class="col-12 col-lg-4 mt-4">
                     <h5>CDMX</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> 55 5219 8599</div>
@@ -183,7 +180,7 @@
                         06760, Ciudad de México</div>
                     <div class="mb-2"><i class="fas fa-envelope me-1"></i> info@cjsi.com.mx</div>
                 </div>
-                <div class="col-12 col-lg-4 mt-4 mb-lg-0">
+                <div class="col-12 col-lg-4 mt-4">
                     <h5>Querétaro</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> (442) 800 0082</div>
@@ -192,7 +189,7 @@
                     </div>
 
                 </div>
-                <div class="col-12 col-lg-4 mt-4 mb-lg-0">
+                <div class="col-12 col-lg-4 mt-4">
                     <h5>Monterrey</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> 80005971</div>
@@ -274,53 +271,46 @@
     <!-- CONTACTO -->
 
     <div id="contact">
-        <div class="container">
+        <div class="container text-center form">
             <h2 class="mb-4">Contacto</h2>
 
-
-            <div class="row align-items-end">
-                <div class="col-12 col-lg-6">
-
-                    <form name="contact" action="contact-exito.html" netlify>
-                        <div class="row">
-                            <div class="col">
-                                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
-                            </div>
-                            <div class="col">
-                                <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1"></label>
-                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
-                                placeholder="Email" aria-describedby="emailHelp" required>
-                            <small id="emailHelp" class="form-text text-muted"></small>
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleFormControlTextarea1"></label>
-                            <textarea class="form-control text-area" name="mensaje" placeholder="Mensaje"
-                                id="exampleFormControlTextarea1" rows="3" required></textarea>
-                        </div>
-
-                        <button id="btn-send" type="submit" class="btn mt-4 text-center"> Enviar Mensaje</button>
-
-                    </form>
-
+            <form name="contact" action="contact-exito.html" netlify>
+                <div class="row">
+                    <div class="col">
+                        <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
+                    </div>
                 </div>
-                <div class="col-12 col-lg-6 mt-5 mt-lg-0 text-center text-lg-end text-end">
-                    <p>Síguenos en nuestras redes sociales</p>
-                    <a href=""><i class="fab fa-lg fa-facebook-f me-3"></i></i></a>
-                    <a href=""><i class="fab fa-twitter fa-lg me-3"></i></a>
-                    <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+                <div class="form-group">
+                    <label for="exampleInputEmail1"></label>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email"
+                        aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted"></small>
                 </div>
-            </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1"></label>
+                    <textarea class="form-control text-area" name="mensaje" placeholder="Mensaje"
+                        id="exampleFormControlTextarea1" rows="3" required></textarea>
+                </div>
+
+                <button type="submit" class="btn mt-4"> Enviar Mensaje</button>
+
+            </form>
 
         </div>
     </div>
 
-    <!-- FOOTER -->
+    <!--REDES -->
 
+    <div id="redes" class="text-center">
+        <p class="d-inline-block my-0 me-3">Síguenos en nuestras redes sociales.</p>
+        <a href=""><i class="fab fa-lg fa-facebook-f me-3"></i></i></a>
+        <a href=""><i class="fab fa-twitter fa-lg me-3"></i></a>
+        <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
 
+    </div>
 
     <!-- LEGALES -->
 
