@@ -73,13 +73,13 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Ventajas</a>
+                        <a class="nav-link" href="#ventajas">Ventajas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Calidad</a>
+                        <a class="nav-link" href="#git push">Calidad</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </li>
 
                 </ul>
@@ -106,7 +106,7 @@
         <div class="container">
 
             <div class="row align-items-center">
-                <div class="col col-sm-6 ">
+                <div class="col-12 col-lg-7 ">
                     <h2 class="mb-4"><b>Quiénes Somos</b></h2>
                     <p>Somos un despacho de abogados especializado en Derecho Mercantil, con 21 años de experiencia,
                         recuperamos todo tipode créditos por la vía Extrajudicial y Judicial.
@@ -123,24 +123,32 @@
                         la cobranza Extrajudicial y
                         Judicial.</p>
 
-                    <p> <b>Filosofía:</b> Proporcionar nuestros servicios dentro del más alto concepto de ética profesional,
+                    <p> <b>Filosofía:</b> Proporcionar nuestros servicios dentro del más alto concepto de ética
+                        profesional,
                         calidad y
                         honestidad
                         cuidando siempre los intereses y la imagen corporativa de nuestros clientes.</p>
 
 
                 </div>
-                <div class="col col-sm-6">
+                <div class="col-12 col-lg-5">
 
                     <img class="img-fluid rounded" src="img/CJSI _MG_1137-FHF.jpg" alt="">
 
                 </div>
 
-
-
             </div>
 
 
+        </div>
+    </div>
+
+    <!-- VENTAJAS -->
+
+    <div id="ventajas">
+        <div class="container text-center">
+            <h2>Ventajas & Servicios</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci saepe in earum excepturi, quod tenetur voluptatibus exercitationem sint incidunt praesentium dolorum veniam debitis? Quos, incidunt assumenda facilis ex officia praesentium.</p>
         </div>
     </div>
 
@@ -163,7 +171,7 @@
 
 
             <div class="row gx-5">
-                <div class="col colg-lg-4">
+                <div class="col-12 col-lg-4">
                     <h5>CDMX</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> 55 5219 8599</div>
@@ -172,7 +180,7 @@
                         06760, Ciudad de México</div>
                     <div class="mb-2"><i class="fas fa-envelope me-1"></i> info@cjsi.com.mx</div>
                 </div>
-                <div class="col colg-lg-4">
+                <div class="col-12 col-lg-4 mt-4 mb-lg-0">
                     <h5>Querétaro</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> (442) 800 0082</div>
@@ -181,7 +189,7 @@
                     </div>
 
                 </div>
-                <div class="col colg-lg-4">
+                <div class="col-12 col-lg-4 mt-4 mb-lg-0">
                     <h5>Monterrey</h5>
                     <hr>
                     <div class="mb-2"> <i class="fas fa-phone-alt me-1"></i> 80005971</div>
@@ -198,7 +206,7 @@
     <div id="clients">
         <div class="container">
 
-            <h2 class="mb-3">Clientes</h2>
+            <h2 class="mb-5 text-center">Nuestros clientes</h2>
 
             <div
                 class="swiper-container mySwiper swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events swiper-container-free-mode">
@@ -264,6 +272,45 @@
 
     <div id="contact">
         <div class="container">
+            <h2 class="mb-4">Contacto</h2>
+
+
+            <div class="row align-items-end">
+                <div class="col-12 col-lg-6">
+
+                    <form name="contact" action="contact-exito.html" netlify>
+                        <div class="row">
+                            <div class="col">
+                                <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                            </div>
+                            <div class="col">
+                                <input type="text" name="apellido" class="form-control" placeholder="Apellido" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1"></label>
+                            <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                                placeholder="Email" aria-describedby="emailHelp" required>
+                            <small id="emailHelp" class="form-text text-muted"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"></label>
+                            <textarea class="form-control text-area" name="mensaje" placeholder="Mensaje"
+                                id="exampleFormControlTextarea1" rows="3" required></textarea>
+                        </div>
+
+                        <button id="btn-send" type="submit" class="btn mt-4 text-center"> Enviar Mensaje</button>
+
+                    </form>
+
+                </div>
+                <div class="col-12 col-lg-6 mt-5 mt-lg-0 text-center text-lg-end text-end">
+                    <p>Síguenos en nuestras redes sociales</p>
+                    <a href=""><i class="fab fa-lg fa-facebook-f me-3"></i></i></a>
+                    <a href=""><i class="fab fa-twitter fa-lg me-3"></i></a>
+                    <a href=""><i class="fab fa-linkedin-in fa-lg"></i></a>
+                </div>
+            </div>
 
         </div>
     </div>

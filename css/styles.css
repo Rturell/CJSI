@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #2A2761;
     font-family: 'Nunito',
@@ -60,12 +64,21 @@ h2 {
 
 #about {
     background-color: white;
-    padding: 4rem 0rem 4rem 0rem;
+    padding: 4rem 0rem 3rem 0rem;
     color: black;
 }
 
 #about h2 {
     color: #2A2761;
+}
+
+
+/*VENTAJAS & SERVICIOS*/
+
+#ventajas {
+    background-color: white;
+    padding: 1rem 0rem 4rem 0rem;
+
 }
 
 
@@ -109,6 +122,30 @@ h2 {
 }
 
 
+/* CONTACTO*/
+
+#contact {
+    background-color: #2A2761;
+    color: white;
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+#contact button {
+    color: white;
+    border: 1px solid white;
+}
+
+#contact button:hover {
+    background-color: white;
+    color: black;
+}
+
+#contact a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 
 /*Legales*/
@@ -128,6 +165,15 @@ h2 {
 #legales p {
     font-size: 14px;
     color: #59595b;
+}
+
+
+
+/*CERTIFICADOS*/
+
+#certificates {
+    background-color: white;
+    padding: 4rem 0rem 4rem 0rem;
 }
 
 
