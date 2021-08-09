@@ -254,7 +254,7 @@ h3 {
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-      .form {
-          width: 60%;
-      }
+    .form {
+        width: 60%;
+    }
 }
