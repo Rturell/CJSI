@@ -1,3 +1,6 @@
+
+///Swiper///
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
     spaceBetween: 20,
@@ -32,3 +35,10 @@ var swiper = new Swiper(".mySwiper", {
          }
     }
 });
+
+///ESCONDER MENÚ AL HACER CLICK///
+
+$(document).on('click', function () {
+    $('.collapse').collapse('hide');
+})
+
