@@ -80,11 +80,16 @@ h3 {
 
 /*VENTAJAS & SERVICIOS*/
 
-#ventajas {
+#services {
     background-color: white;
     padding: 1rem 0rem 4rem 0rem;
 
 }
+
+#services h2 {
+    color: #2A2761;
+}
+
 
 
 /*COVERAGE*/
