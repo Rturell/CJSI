@@ -91,6 +91,11 @@ h3 {
     color: #2A2761;
 }
 
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+}
+
 
 
 /*COVERAGE*/
@@ -132,6 +137,24 @@ h3 {
 .swiper-pagination {
     margin-top: 5rem;
 }
+
+.btn-cobertura {
+    border: 1px solid white;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white
+    ;
+}
+
+.btn-cobertura:hover {
+    background-color: white;
+    color: black;
+}
+
+.mapa {
+    width: 100%;
+    height: 500px;
+}
+
 
 
 /* CONTACTO*/
