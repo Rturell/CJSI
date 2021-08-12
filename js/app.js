@@ -42,3 +42,7 @@ $(document).on('click', function () {
     $('.collapse').collapse('hide');
 })
 
+
+$('.carousel').carousel({
+    interval: 1000
+})
