@@ -1,4 +1,25 @@
 
+///CHANGE MAPS///
+
+$('.btn-cobertura-contenciosa').addClass('active'),
+$('.cobertura-fisica').addClass('hide'),
+
+$('.btn-cobertura-fisica').click(function () {
+    $('.cobertura-contenciosa').addClass('hide'),
+    $('.cobertura-fisica').removeClass('hide'),
+    $('.btn-cobertura-fisica').addClass('active'),
+    $('.btn-cobertura-contenciosa').removeClass('active')
+
+}); 
+
+$('.btn-cobertura-contenciosa').click(function () {
+    $('.cobertura-fisica').addClass('hide'),
+    $('.cobertura-contenciosa').removeClass('hide'),
+    $('.btn-cobertura-contenciosa').addClass('active'),
+    $('.btn-cobertura-fisica').removeClass('active')
+
+});
+
 ///Swiper///
 
 var swiper = new Swiper(".mySwiper", {
@@ -40,9 +61,10 @@ var swiper = new Swiper(".mySwiper", {
 
 $(document).on('click', function () {
     $('.collapse').collapse('hide');
-})
+}); 
 
 
 $('.carousel').carousel({
     interval: 1000
-})
+}); 
+

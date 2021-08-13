@@ -116,6 +116,38 @@ h3 {
     font-weight: 600;
 }
 
+#coverage p {
+
+    font-size: 1.3rem;
+}
+
+#coverage button:hover {
+    background-color: white;
+    color: black;
+}
+
+.hide {
+    display: none;
+}
+
+
+.btn-cobertura-fisica,
+.btn-cobertura-contenciosa {
+    border: 1px solid white;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    color: white;
+}
+
+.btn-cobertura:hover {
+    background-color: white;
+    color: black;
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
 
 /*CLIENTS*/
 
@@ -136,23 +168,6 @@ h3 {
 
 .swiper-pagination {
     margin-top: 5rem;
-}
-
-.btn-cobertura {
-    border: 1px solid white;
-    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
-    color: white
-    ;
-}
-
-.btn-cobertura:hover {
-    background-color: white;
-    color: black;
-}
-
-.mapa {
-    width: 100%;
-    height: 500px;
 }
 
 
@@ -272,6 +287,17 @@ h3 {
     .carousel-item img {
         max-width: 90%;
     }
+
+    .btn-cobertura-fisica {
+        margin-top: 1rem;
+    }
+}
+
+@media (min-width: 381px) {
+
+    .btn-cobertura-fisica {
+        margin-top: 0rem;
+    }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -297,10 +323,6 @@ h3 {
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
-    #coverage img {
-        width: 70%;
-    }
 
      .carousel-item img {
          max-width: 50%;
