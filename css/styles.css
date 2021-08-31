@@ -193,7 +193,7 @@ h3 {
 
 #clients {
     background-color: white;
-    padding: 4rem 0rem 4rem 0rem;
+    padding: 6rem 0rem 4rem 0rem;
 }
 
 #clients img {
@@ -205,11 +205,9 @@ h3 {
     filter: grayscale(0);
 }
 
-
 .swiper-pagination {
-    margin-top: 5rem;
+    display: none;
 }
-
 
 /* CALIDAD */
 
